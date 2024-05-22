@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+#clock_container{
+    position: relative;
+    background-color: red;
+    background-image: url("watch.gif");
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    
+}
+
+#hour,#minute,#second{
+    position:absolute;
+    background:black;
+    border-radius: 10px;
+
+
+}
+
+#hour{
+    width: 2%;
+    height: 20%;
+    top: 29.3%;
+    left: 49%;
+    transform-origin: bottom;
+}
+
+#minute{
+    background:yellow;
+
+    width: 1.5%;
+    height: 30%;
+    top: 20%;
+    left: 49.25%;
+    transform-origin: bottom;
+
+}
+#second{
+    background-color: red;
+    width: 0.5%;
+    height: 38%;
+    top: 12%;
+    left: 49.75%;
+    transform-origin: bottom;
+
+}
+
